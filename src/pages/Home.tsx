@@ -1,4 +1,5 @@
 import { LucideArrowRight, LucideZap, LucideUsers, LucideDatabase, LucideGlobe } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { FadeIn } from '../components/animations/FadeIn';
 
 export const Home = () => {
@@ -29,12 +30,12 @@ export const Home = () => {
           </FadeIn>
           <FadeIn delay={400}>
             <div className="flex gap-4 justify-center">
-              <a href="/inquiry" className="px-8 py-4 bg-primary text-white rounded-full font-bold hover:bg-blue-600 transition-all hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(0,102,255,0.5)] flex items-center gap-2">
+              <Link to="/inquiry" className="px-8 py-4 bg-primary text-white rounded-full font-bold hover:bg-blue-600 transition-all hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(0,102,255,0.5)] flex items-center gap-2">
                 사업 상담하기 <LucideArrowRight size={18} />
-              </a>
-              <a href="/business" className="px-8 py-4 bg-white/5 border border-white/10 text-white rounded-full font-semibold hover:bg-white/10 transition-all backdrop-blur-sm">
+              </Link>
+              <Link to="/business" className="px-8 py-4 bg-white/5 border border-white/10 text-white rounded-full font-semibold hover:bg-white/10 transition-all backdrop-blur-sm">
                 상세 사업영역 보기
-              </a>
+              </Link>
             </div>
           </FadeIn>
         </div>
@@ -58,9 +59,9 @@ export const Home = () => {
               <p className="text-lg text-neutral-400 leading-relaxed mb-6">
                 휴텍씨는 이 거대 담론을 현장에 안착시키기 위해, 가장 기본인 <strong className="text-neutral-200">'사람에 대한 교육'</strong>부터 <strong className="text-neutral-200">'운영 데이터 축적', '검증된 인력 공급', '글로벌 확산 마케팅'</strong>까지 이어지는 독보적인 벨류체인을 시장에 공급합니다.
               </p>
-              <a href="/company" className="text-primary hover:text-blue-400 font-semibold flex items-center gap-2 transition-colors">
+              <Link to="/company" className="text-primary hover:text-blue-400 font-semibold flex items-center gap-2 transition-colors">
                 휴텍씨 스토리 더 알아보기 <LucideArrowRight size={16} />
-              </a>
+              </Link>
             </FadeIn>
           </div>
           <div className="w-full md:w-1/2">
