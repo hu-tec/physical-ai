@@ -12,7 +12,7 @@ import { Inquiry } from './pages/Inquiry';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/physical-ai">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
