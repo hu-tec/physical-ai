@@ -176,9 +176,9 @@ export const BusinessLayout = ({
       {/* CTA */}
       <section className="py-20 text-center bg-blue-900/20 px-6 mt-12">
         <h2 className="text-3xl font-bold mb-8">성공적인 비즈니스를 위한 첫 걸음</h2>
-        <a href="/inquiry" className="inline-block px-8 py-4 bg-primary text-white rounded-full font-semibold hover:bg-blue-600 transition-all hover:shadow-lg hover:-translate-y-1">
+        <Link to="/inquiry" className="inline-block px-8 py-4 bg-primary text-white rounded-full font-semibold hover:bg-blue-600 transition-all hover:shadow-lg hover:-translate-y-1">
           {ctaText}
-        </a>
+        </Link>
       </section>
     </div>
   )

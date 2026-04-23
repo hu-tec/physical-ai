@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { FadeIn } from '../components/animations/FadeIn';
 
 export const Company = () => {
@@ -91,9 +92,9 @@ export const Company = () => {
       <section className="py-20 bg-blue-900/20 text-center px-6">
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl font-bold mb-8">휴텍씨와 함께 새로운 비즈니스를 시작하세요</h2>
-          <a href="/inquiry" className="inline-block px-8 py-4 bg-primary text-white rounded-full font-semibold hover:bg-blue-600 transition-all hover:-translate-y-1 hover:shadow-lg">
+          <Link to="/inquiry" className="inline-block px-8 py-4 bg-primary text-white rounded-full font-semibold hover:bg-blue-600 transition-all hover:-translate-y-1 hover:shadow-lg">
             제휴 및 사업 문의하기
-          </a>
+          </Link>
         </div>
       </section>
     </div>
