@@ -2,12 +2,11 @@ import { LucidePhone, LucideMail, LucideMapPin } from 'lucide-react';
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#171527] border-t border-white/5 text-neutral-400 py-16 px-6">
+    <footer className="bg-black border-t border-white/5 text-neutral-400 py-16 px-6">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between gap-12 lg:gap-8">
         {/* Left Column */}
         <div className="space-y-4 max-w-[280px]">
           <div className="flex items-center gap-2">
-            <div className="bg-indigo-600 text-white text-[11px] font-bold px-2 py-0.5 rounded leading-tight">HT</div>
             <span className="text-xl font-bold text-white tracking-tight">휴텍씨</span>
           </div>
           <p className="text-sm leading-relaxed text-neutral-400/90">
