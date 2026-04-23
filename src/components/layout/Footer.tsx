@@ -11,35 +11,12 @@ export const Footer = () => {
             <span className="text-xl font-bold text-white tracking-tight">휴텍씨</span>
           </div>
           <p className="text-sm leading-relaxed text-neutral-400/90">
-            외국어 교육과 번역 분야의 리딩 그룹으로, 인공지능 기술을 융합한 혁신적인 서비스를 제공합니다.
+            피지컬 AI를 교육, 자격, 데이터, 콘텐츠, 인력, 번역, 글로벌 사업으로 연결하는 실행형 기업입니다.
           </p>
         </div>
 
-        {/* Links Grid */}
+        {/* Contact Information */}
         <div className="flex flex-col md:flex-row gap-12 md:gap-24">
-          <div className="flex flex-col gap-3">
-            <h3 className="text-white font-semibold mb-3">사업 영역</h3>
-            <ul className="space-y-2.5 text-sm text-neutral-400/90">
-              <li><a href="#" className="hover:text-white transition-colors">AITe 시험</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">ITT 시험</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">메타트랜스</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">통독 서비스</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">프롬프트 전문가</a></li>
-            </ul>
-          </div>
-
-          <div className="flex flex-col gap-3">
-            <h3 className="text-white font-semibold mb-3">바로가기</h3>
-            <ul className="space-y-2.5 text-sm text-neutral-400/90">
-              <li><a href="#" className="hover:text-white transition-colors">그룹 소개</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">AI 신사업</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">30년 정통사업</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">사회 공헌</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">파트너십 및 인증</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">언론 보도</a></li>
-            </ul>
-          </div>
-
           <div className="flex flex-col gap-3 max-w-[280px]">
             <h3 className="text-white font-semibold mb-3">연락처</h3>
             <ul className="space-y-3 text-sm text-neutral-400/90">
